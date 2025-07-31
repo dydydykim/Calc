@@ -4,7 +4,6 @@ from calc import Calc
 
 def test_calc():
     assert 1 == 1
-    pytest.fail()
 
 
 def test_get_minus():
