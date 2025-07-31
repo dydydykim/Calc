@@ -1,6 +1,4 @@
 class Calc:
     # 이곳에 코드를 작성
-    pass
-
-    def get_minus(self, param, param1):
-        return 1
+    def get_minus(self, num1, num2):
+        return num1 - num2

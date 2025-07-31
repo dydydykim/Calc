@@ -6,6 +6,9 @@ def test_calc():
     assert calc is not None
 
 def test_get_minus():
+    cases = [(4,3,1), (3,4,-1), (10,10,0)]
     calc = Calc()
-    ret = calc.get_minus(4, 3)
-    assert ret == 1
+
+    for case in cases:
+        ret = calc.get_minus(case[0], case[1])
+        assert ret == case[2]
