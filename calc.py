@@ -17,7 +17,10 @@ class Calc:
     
     def getZegop(self, a):
         return a*a
-     
+
+    def getGopGop(self, param, param1, param2):
+        return param * param1 * param2
+    
     def getGop(self, a: int, b: int):
         return a * b
       
