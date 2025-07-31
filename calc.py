@@ -1,3 +1,6 @@
 class Calc:
-    # 이곳에 코드를 작성
-    pass
+    def __init__(self):
+        pass
+
+    def getSumSum(self, a, b, c):
+        return a + b + c

@@ -1,5 +1,7 @@
 import pytest
+from calc import Calc
 
-def test_calc():
-    assert 1==1
-    pytest.fai()
+def test_getSumSUm():
+    calc = Calc()
+    ret = calc.getSumSum(1, 2, 3)
+    assert ret == 6
