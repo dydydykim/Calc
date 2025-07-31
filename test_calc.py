@@ -14,3 +14,6 @@ def test_getZegop():
     assert calc.getZegop(-1) == 1
     assert calc.getZegop(-2) == 4
 
+def test_getGopGop():
+    calc = Calc()
+    assert calc.getGopGop(1, 2, 3) == 6
