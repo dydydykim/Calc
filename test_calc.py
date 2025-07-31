@@ -4,7 +4,7 @@ from calc import Calc
 
 def test_calc():
     assert 1==1
-    pytest.fai()
+    pytest.fail()
 
 def test_getZegop():
     calc= Calc()
