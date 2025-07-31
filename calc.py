@@ -26,3 +26,7 @@ class Calc:
       
     def getZegop(self, a):
         return a*a
+
+    def getSum(self, a, b):
+        return a+b
+

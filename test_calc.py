@@ -30,8 +30,16 @@ def test_getZegop():
     assert calc.getZegop(3) == 9
     assert calc.getZegop(-1) == 1
     assert calc.getZegop(-2) == 4
-    assert calc.getZegop(-2) == 4
 
 def test_getGopGop():
     calc = Calc()
     assert calc.getGopGop(1, 2, 3) == 6
+
+def test_getSum():
+    calc = Calc()
+    assert calc.getSum(1, 2) == 3
+    assert calc.getSum(1, 0) == 1
+    assert calc.getSum(0, 0) == 0
+    assert calc.getSum(-1, 1) == 0
+    assert calc.getSum(-1, 0) == -1
+    assert calc.getSum(-1, -2) == -3
